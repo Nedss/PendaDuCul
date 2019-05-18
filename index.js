@@ -11,7 +11,7 @@ const prefix = "/";
 // = LOG SETUP
 // ==============================================
 
-bot.login(process.env.TOKEN);
+client.login(process.env.TOKEN);
 
 // ==============================================
 // = BOT
