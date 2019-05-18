@@ -22,7 +22,7 @@ client.on('ready', () => {
 })
 
 client.on('message', message => {
-    if (message.content == prefix+"cul" & message.channel.id == 579049560308187166){
+    if (message.content == prefix+"cul" & message.channel.id == 416633161330589697){
         var myWord = getWord("./Lexique382.tsv");
         message.reply(myWord + " du cul !");
     }
